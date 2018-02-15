@@ -176,8 +176,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4526965762192370}
+<<<<<<< HEAD
   - component: {fileID: 54787679372378252}
   - component: {fileID: 65128383700842980}
+=======
+  - component: {fileID: 54849853202937538}
+  - component: {fileID: 65234841489071930}
+>>>>>>> 070bcf11bffe30d7285fca9dabb0aede4b284a02
   m_Layer: 0
   m_Name: Bot Factory
   m_TagString: Untagged
@@ -283,7 +288,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1566740658441048
 GameObject:
@@ -679,7 +684,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1111490715319800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: -1.13, z: 0}
+>>>>>>> 070bcf11bffe30d7285fca9dabb0aede4b284a02
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4903454696521872}
@@ -742,7 +751,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1340632223231196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 43.328003, y: 1.9912341, z: 32.627167}
+=======
+  m_LocalPosition: {x: -27.94778, y: 8.100972, z: 19.37666}
+>>>>>>> 070bcf11bffe30d7285fca9dabb0aede4b284a02
   m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
   m_Children:
   - {fileID: 4416252710579230}
@@ -1825,6 +1838,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!54 &54849853202937538
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340632223231196}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!64 &64598851841790428
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -1839,7 +1867,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5f08a76d2a589634ba63c1aac94d48d1, type: 3}
+<<<<<<< HEAD
 --- !u!65 &65128383700842980
+=======
+--- !u!65 &65234841489071930
+>>>>>>> 070bcf11bffe30d7285fca9dabb0aede4b284a02
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1849,8 +1881,13 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 1, z: 0}
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> 070bcf11bffe30d7285fca9dabb0aede4b284a02
 --- !u!65 &65244579132457440
 BoxCollider:
   m_ObjectHideFlags: 1
